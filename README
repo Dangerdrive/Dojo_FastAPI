@@ -1,0 +1,9 @@
+install uvicorn:
+pip install fastapi uvicorn
+
+in the current work folder
+uvicorn main:app --reload
+
+The main:app indicates that you are running the main.py 
+module and the app is the FastAPI instance you created. 
+The --reload flag causes the server to automatically restart whenever you make code changes.
